@@ -1,5 +1,7 @@
 # Morse_Code
 
+> During our vacation at the seaside, time after time we find old bottles with parchment inside. Out of curiosity, we look into the next bottle and see that there is a message written in Morse code. Our curiosity grows even more - maybe we just found the lost treasure of the pirates! However, we are getting tired of decrypting messages manually. Fortunately, we can program in Ruby and we can help Ourself by automating this process.
+
 ## Getting Started
 
 For a complete list of ways to install Ruby, including using third-party tools
