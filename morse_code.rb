@@ -1,7 +1,7 @@
 class Decoder
-  def char_decode(c)
+  def char_decode(let)
     chart = {
-      '.-' => 'A', '-...' => 'B', 
+      '.-' => 'A', '-...' => 'B',
       '-.-.' => 'C', '-..' => 'D',
       '.' => 'E', '..-.' => 'F',
       '--.' => 'G', '....' => 'H',
@@ -15,7 +15,7 @@ class Decoder
       '.--' => 'W', '-..-' => 'X',
       '-.--' => 'Y', '--..' => 'Z'
     }
-    chart[c]
+    chart[let]
   end
 
   def word_decoder(word)
@@ -24,7 +24,6 @@ class Decoder
     arr.each do |l|
       res += char_decode(l)
     end
-    
     res
   end
 
